@@ -11,7 +11,7 @@ class GitHubExplorer:
         self.root = root
         self.root.title("NAS Interface")
         self.root.geometry("800x600")  # Initial size of the window
-        self.root.resizable(True, True)  # Allow both horizontal and vertical resizing
+        self.root.resizable(True, True)  # Allow both horizontal and vertical resizin
 
         self.current_path = 'nas/nas'
         self.previous_paths = []
@@ -388,6 +388,7 @@ if __name__ == "__main__":
             print("GitHub token, owner, and repository name are required.")
             root.destroy()
     root.mainloop()
+
 
 
 
